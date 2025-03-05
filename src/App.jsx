@@ -31,7 +31,7 @@ const App = () => {
           name="keywords"
           content="Restobar, Meeting place, Meeting place near me, Best coffee near me, Freshly brewed coffee, Specialty coffee shop, Artisanal coffee, Coffee lovers, Coffee shop menu, Organic coffee, Cold brew coffee, Espresso bar, Best coffee shop in [your city], Coffee near [landmark/neighborhood], Café in [your city], Local coffee roasters in [your city], Specialty coffee in [your city], Best espresso drinks, Handcrafted coffee, Latte art café, Coffee and pastries, Vegan coffee options, Gluten-free café menu, Cozy coffee shop, Best café for work, Instagrammable café, Aesthetic coffee shop, Quiet coffee shop for studying, Where to buy the best coffee beans, Coffee shop with free WiFi, Best coffee for remote work, Third-wave coffee shop, Sustainable coffee brands"
         />
-        <link rel="canonical" href="https://www.beanvantage.com/" />
+        <link rel="canonical" href="https://beanvantage.vercel.app/" />
 
         <meta property="og:title" content="Bean Vantage - Best Coffee Near You" />
         <meta
@@ -39,8 +39,8 @@ const App = () => {
           content="Visit Our Coffee Shop for the best freshly brewed coffee, artisanal espresso, and cozy meeting place."
         />
         <meta property="og:type" content="website" />
-        <meta property="og:url" content="https://www.beanvantage.com/" />
-        <meta property="og:image" content="https://www.beanvantage.com/og-image.jpg" />
+        <meta property="og:url" content="https://beanvantage.vercel.app/" />
+        <meta property="og:image" content="https://beanvantage.vercel.app/og-image.jpg" />
         <meta property="og:site_name" content="Bean Vantage" />
 
         <meta name="twitter:card" content="summary_large_image" />
@@ -49,7 +49,7 @@ const App = () => {
           name="twitter:description"
           content="Visit Our Coffee Shop for the best freshly brewed coffee, artisanal espresso, and cozy meeting place."
         />
-        <meta name="twitter:image" content="https://www.beanvantage.com/twitter-image.jpg" />
+        <meta name="twitter:image" content="https://beanvantage.vercel.app/twitter-image.jpg" />
       </Helmet>
 
       <Nav />
@@ -80,7 +80,7 @@ const App = () => {
             "@context": "https://schema.org",
             "@type": "CafeOrCoffeeShop",
             "name": "Bean Vantage",
-            "image": "https://www.beanvantage.com/logo.jpg",
+            "image": "/coffee_logo.png",
             "description": "Visit Our Coffee Shop for the best freshly brewed coffee, artisanal espresso, and cozy meeting place.",
             "address": {
                 "@type": "PostalAddress",

@@ -80,7 +80,7 @@ const Login = () => {
         <link rel="preload" href={CoffeeImage} as="image" />
       </Helmet>
 
-      <div className="w-full max-w-4xl flex flex-col sm:flex-row items-center justify-between gap-8 px-4 py-8">
+      <div className="w-full max-w-4xl flex flex-col sm:flex-row items-center justify-between gap-8 px-4 py-8 border  border-gray-400 rounded-3xl">
         {/* Login Form */}
         <section className="w-full sm:w-1/2 bg-[#2c1b18] p-8 rounded-lg shadow-lg" role="main">
           <h1 className="text-4xl sm:text-5xl font-bold text-center mb-8 bg-clip-text text-transparent bg-gradient-to-b from-[#e09f3e] to-[#9c6644] pb-2">
@@ -144,7 +144,7 @@ const Login = () => {
           <img
             src={CoffeeImage}
             alt="Coffee at Bean Vantage Restobar, a cozy meeting place near me"
-            className="w-64 sm:w-80 animate-float object-cover"
+            className="w-64 sm:w-80 animate-float object-cover rounded-xl"
             loading="lazy"
             decoding="async"
             fetchpriority="high"

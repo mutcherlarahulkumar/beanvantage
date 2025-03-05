@@ -86,7 +86,7 @@ const Maps = () => {
         <meta property="og:title" content="Find Bean Vantage on the Map" />
         <meta property="og:description" content="Use our interactive map to locate the nearest Bean Vantage café and get directions instantly." />
         <meta property="og:type" content="website" />
-        <meta property="og:url" content="https://www.beanvantage.com/location" />
+        <meta property="og:url" content="https://beanvantage.vercel.app/location" />
 
         <script type="application/ld+json">{JSON.stringify(structuredData)}</script>
       </Helmet>

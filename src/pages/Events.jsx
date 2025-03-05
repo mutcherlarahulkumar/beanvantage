@@ -37,8 +37,8 @@ const Events = () => {
     "@type": "EventSeries",
     "name": "Upcoming Events at Bean Vantage Café",
     "description": "Join us for exciting events, special offers, and fun activities at Bean Vantage Café!",
-    "url": "https://www.beanvantage.com/events",
-    "image": "https://www.beanvantage.com/event_image.jpg",
+    "url": "https://beanvantage.vercel.app/events",
+    "image": "https://beanvantage.vercel.app/event_image.jpg",
     "events": events.map(event => ({
       "@type": "Event",
       "name": event.name,
@@ -63,7 +63,7 @@ const Events = () => {
           name="keywords" 
           content="Bean Vantage events, coffee shop events, live music café, barista training, coffee offers, café near me, coffee shop activities" 
         />
-        <link rel="canonical" href="https://www.beanvantage.com/events" />
+        <link rel="canonical" href="https://beanvantage.vercel.app/events" />
 
         {/* Open Graph Meta Tags */}
         <meta property="og:title" content="Events - Bean Vantage Café" />
@@ -72,8 +72,8 @@ const Events = () => {
           content="Stay updated with the latest events happening at Bean Vantage Café. Join us for live music, exclusive offers, and barista training sessions." 
         />
         <meta property="og:type" content="website" />
-        <meta property="og:url" content="https://www.beanvantage.com/events" />
-        <meta property="og:image" content="https://www.beanvantage.com/event_image.jpg" />
+        <meta property="og:url" content="https://beanvantage.vercel.app/events" />
+        <meta property="og:image" content="https://beanvantage.vercel.app/event_image.jpg" />
         <meta property="og:site_name" content="Bean Vantage Café" />
 
         {/* Twitter Card Meta Tags */}
@@ -83,7 +83,7 @@ const Events = () => {
           name="twitter:description" 
           content="Stay updated with the latest events happening at Bean Vantage Café. Join us for live music, exclusive offers, and barista training sessions." 
         />
-        <meta name="twitter:image" content="https://www.beanvantage.com/event_image.jpg" />
+        <meta name="twitter:image" content="https://beanvantage.vercel.app/event_image.jpg" />
       </Helmet>
 
       {/* Structured Data (Schema Markup) for Events Page */}

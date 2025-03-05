@@ -2,14 +2,95 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
-    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
-    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Vite + React</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+    <title>Bean Vantage - Premium Coffee Shop & Meeting Place Near You</title>
+
+    <meta 
+      name="description" 
+      content="Bean Vantage is the perfect meeting place near you. Enjoy premium coffee, cozy ambiance, and a great spot for business meetings or casual hangouts. Visit us today!" 
+    />
+
+    <meta 
+      name="keywords" 
+      content="Restobar, meeting place, meeting place near me, coffee shop, premium coffee, business meetings, cozy café, coffee near me, café in visakhapatnam, beanvantage, bean, vantage" 
+    />
+
+    <link rel="canonical" href="https://beanvantage.vercel.app/" />
+
+    <meta property="og:title" content="Bean Vantage - Premium Coffee Shop & Meeting Place Near You" />
+    <meta 
+      property="og:description" 
+      content="Bean Vantage is the perfect meeting place near you. Enjoy premium coffee, cozy ambiance, and a great spot for business meetings or casual hangouts. Visit us today!" 
+    />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://beanvantage.vercel.app/" />
+    <meta property="og:image" content="https://beanvantage.vercel.app/og-image.jpg" />
+    <meta property="og:site_name" content="Bean Vantage" />
+
+    <!-- Twitter Card Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Bean Vantage - Premium Coffee Shop & Meeting Place Near You" />
+    <meta 
+      name="twitter:description" 
+      content="Bean Vantage is the perfect meeting place near you. Enjoy premium coffee, cozy ambiance, and a great spot for business meetings or casual hangouts. Visit us today!" 
+    />
+    <meta name="twitter:image" content="https://beanvantage.vercel.app/twitter-image.jpg" />
+
+    <link rel="icon" type="image/svg+xml" href="/coffee_logo.png" />
+
+    <link rel="preload" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" as="style" />
+    <link rel="preload" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" as="script" />
+
+    <link 
+      rel="stylesheet" 
+      href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" 
+      integrity="sha384-..."
+      crossorigin="anonymous"
+    />
+
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "CafeOrCoffeeShop",
+        "name": "Bean Vantage",
+        "image": "/coffee_logo.png",
+        "description": "Bean Vantage is the perfect meeting place near you. Enjoy premium coffee, cozy ambiance, and a great spot for business meetings or casual hangouts.",
+          "address": {
+            "@type": "PostalAddress",
+            "streetAddress": "Plot No. 9, Sector 1, MVP Colony",
+            "addressLocality": "Visakhapatnam",
+            "postalCode": "530017",
+            "addressCountry": "India"
+          },
+          "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": "17.72839488842437",
+            "longitude": "83.30634742272619"
+          }
+        "openingHoursSpecification": {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
+          "opens": "07:00",
+          "closes": "20:00"
+        }
+      }
+    </script>
   </head>
   <body>
     <div id="root"></div>
-    <script type="module" src="/src/main.jsx"></script>
+    <h1>Bean Vantage</h1>
+    <h2>Savor the Edge in Every Sip</h2>
+
+
+    <script 
+      src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" 
+      integrity="sha384-..."
+      crossorigin="anonymous"
+      defer
+    ></script>
+
+    <script type="module" src="/src/main.jsx" defer></script>
   </body>
 </html>

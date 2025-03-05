@@ -1,0 +1,10 @@
+User-agent: *
+Disallow: /orders/
+Disallow: /login/
+Disallow: /register/
+
+# Allow everything else to be indexed
+Allow: /
+
+# Sitemap location
+Sitemap: https://beanvantage.vercel.app/sitemap.xml
