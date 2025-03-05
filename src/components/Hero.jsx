@@ -1,11 +1,11 @@
 import HeroPng from "../assets/coffee2.png";
+import { Link } from "react-router-dom";
 
 export default function Hero() {
   return (
     <div className="min-h-screen bg-[#2c1b18] flex justify-center items-center text-[#e8d3b9]">
       <div className="container pb-8 sm:pb-0">
         <div className="grid grid-cols-1 sm:grid-cols-2 gap-8">
-          {/* Text Section */}
           <div className="flex flex-col justify-center gap-6 text-center sm:text-left order-2 sm:order-1 m-3">
             <h1 className="text-5xl sm:text-6xl lg:text-7xl font-bold leading-tight">
               Brewing happiness,
@@ -18,9 +18,11 @@ export default function Hero() {
                 that are brewed to perfection. 
             </p>
             <div>
-              <button className="bg-gradient-to-r from-[#e09f3e] to-[#9c6644] border-2 border-[#e09f3e] hover:scale-105 duration-200 text-[#2c1b18] py-3 px-6 rounded-full font-semibold shadow-md">
-                Explore Our Menu
-              </button>
+            <Link to="/products">
+  <button className="bg-gradient-to-r from-[#e09f3e] to-[#9c6644] border-2 border-[#e09f3e] hover:scale-105 duration-200 text-[#2c1b18] py-3 px-6 rounded-full font-semibold shadow-md">
+    Explore Our Menu
+  </button>
+</Link>
             </div>
           </div>
 
