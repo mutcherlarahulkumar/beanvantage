@@ -72,7 +72,7 @@ const Testimonials = () => {
       <div className="container mx-auto px-6">
         {/* Header Section */}
         <div className="mb-10 text-center">
-          <h1 className="text-4xl font-bold text-gray-800">Testimonials</h1>
+          <h2 className="text-4xl font-bold text-gray-800">Testimonials</h2>
         </div>
 
         {/* Testimonial Cards */}
@@ -86,7 +86,7 @@ const Testimonials = () => {
                   className="rounded-full w-20 h-20 object-cover"
                 />
                 <p className="text-sm text-gray-600">{data.text}</p>
-                <h1 className="text-lg font-bold text-gray-800">{data.name}</h1>
+                <h4 className="text-lg font-bold text-gray-800">{data.name}</h4>
                 <span className="text-black/20 text-6xl font-serif">,,</span>
               </div>
             </div>

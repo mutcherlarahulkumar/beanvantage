@@ -22,16 +22,15 @@ const App = () => {
   return (
     <Router>
       <Helmet>
-        <title>Bean Vantage - Best Coffee Near You</title>
+        <title>Bean Vantage - Enjoy the Best Coffee & Meetings Near You</title>
         <meta
           name="description"
-          content="Visit Our Coffee Shop for the best freshly brewed coffee, artisanal espresso, and cozy meeting place. Explore our specialty coffee, vegan options, and gluten-free menu."
+          content="Visit our restobar and meeting place for freshly brewed coffee, artisanal espresso, and a cozy ambiance. Enjoy specialty coffee, vegan options, and more."
         />
         <meta
           name="keywords"
-          content="Restobar, Meeting place, Meeting place near me, Best coffee near me, Freshly brewed coffee, Specialty coffee shop, Artisanal coffee, Coffee lovers, Coffee shop menu, Organic coffee, Cold brew coffee, Espresso bar, Best coffee shop in [your city], Coffee near [landmark/neighborhood], Café in [your city], Local coffee roasters in [your city], Specialty coffee in [your city], Best espresso drinks, Handcrafted coffee, Latte art café, Coffee and pastries, Vegan coffee options, Gluten-free café menu, Cozy coffee shop, Best café for work, Instagrammable café, Aesthetic coffee shop, Quiet coffee shop for studying, Where to buy the best coffee beans, Coffee shop with free WiFi, Best coffee for remote work, Third-wave coffee shop, Sustainable coffee brands"
-        />
-        <link rel="canonical" href="https://beanvantage.vercel.app/" />
+          content="Restobar, Meeting place, Coffee shop near me, Best coffee near me, Freshly brewed coffee, Specialty coffee shop, Artisanal coffee, Organic coffee, Cold brew coffee, Espresso bar, Best café in Visakhapatnam, Cozy coffee shop, Vegan coffee options, Gluten-free café menu, Coffee shop with free WiFi, Best coffee for remote work, Third-wave coffee shop, Instagrammable café, Aesthetic coffee shop, Quiet café for meetings, Latte art café, Local coffee roasters in Visakhapatnam, Sustainable coffee brands" />
+          <link rel="canonical" href="https://beanvantage.vercel.app/" />
 
         <meta property="og:title" content="Bean Vantage - Best Coffee Near You" />
         <meta

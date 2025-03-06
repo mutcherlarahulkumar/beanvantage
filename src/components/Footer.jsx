@@ -35,7 +35,7 @@ const Footer = () => {
           {/* Footer Links */}
           <div className="col-span-2 grid grid-cols-2 sm:grid-cols-3 md:pl-10 gap-6">
             <div className="py-8">
-              <h1 className="text-lg font-semibold mb-3">Important Links</h1>
+              <h3 className="text-lg font-semibold mb-3">Important Links</h3>
               <ul className="space-y-2">
                 {FooterLinks.map((data, index) => (
                   <li key={index}>
@@ -52,7 +52,7 @@ const Footer = () => {
             </div>
 
             <div className="py-8">
-              <h1 className="text-lg font-semibold mb-3">Quick Links</h1>
+              <h3 className="text-lg font-semibold mb-3">Quick Links</h3>
               <ul className="space-y-2">
                 {FooterLinks.map((data, index) => (
                   <li key={index}>
@@ -76,13 +76,13 @@ const Footer = () => {
 
               {/* Social Media Links */}
               <div className="flex items-center gap-4 mt-4">
-                <a href="#" aria-label="Instagram">
+                <a href="https://www.instagram.com/starbucks/" aria-label="Instagram">
                   <FaInstagram className="text-2xl hover:text-primary transition-all duration-300" />
                 </a>
-                <a href="#" aria-label="Facebook">
+                <a href="https://www.facebook.com/Starbucks/" aria-label="Facebook">
                   <FaFacebook className="text-2xl hover:text-primary transition-all duration-300" />
                 </a>
-                <a href="#" aria-label="LinkedIn">
+                <a href="https://www.linkedin.com/company/starbucks/" aria-label="LinkedIn">
                   <FaLinkedin className="text-2xl hover:text-primary transition-all duration-300" />
                 </a>
               </div>
