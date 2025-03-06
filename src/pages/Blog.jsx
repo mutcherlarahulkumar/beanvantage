@@ -38,7 +38,7 @@ export default function BlogPage() {
       <main className="max-w-7xl mx-auto px-6 py-16">
         <article className="mb-20 bg-[#1A1212] rounded-2xl overflow-hidden shadow-2xl">
           <img 
-            src="../src/assets/bussiness_meet.jpg" 
+            src="https://images.unsplash.com/photo-1521737852567-6949f3f9f2b5" 
             alt="Business meeting at Beanvantage"
             className="w-full h-96 object-cover"
             loading="lazy"
@@ -80,7 +80,7 @@ export default function BlogPage() {
               </div>
 
               <img 
-                src="../src/assets/cafe_tech.jpg" 
+                src="https://images.unsplash.com/photo-1525610553991-2bede1a236e2?w=1080" 
                 alt="Coffee and workspace at Beanvantage"
                 className="rounded-xl my-8 w-full h-50" 
                 loading="lazy"
