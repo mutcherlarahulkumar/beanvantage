@@ -25,7 +25,7 @@ const App = () => {
         <title>Bean Vantage - Enjoy the Best Coffee & Meetings Near You</title>
         <meta
           name="description"
-          content="Visit our restobar and meeting place for freshly brewed coffee, artisanal espresso, and a cozy ambiance. Enjoy specialty coffee, vegan options, and more."
+          content="Visit Bean Vantage, the best restobar and meeting place in Visakhapatnam! Enjoy freshly brewed coffee, artisanal espresso, specialty drinks, and a cozy ambiance."
         />
         <meta
           name="keywords"
