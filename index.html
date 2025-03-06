@@ -29,7 +29,6 @@
     <meta property="og:image" content="https://beanvantage.vercel.app/og-image.jpg" />
     <meta property="og:site_name" content="Bean Vantage" />
 
-    <!-- Twitter Card Meta Tags -->
     <meta name="twitter:card" content="summary_large_image" />
     <meta name="twitter:title" content="Bean Vantage - Premium Coffee Shop & Meeting Place Near You" />
     <meta 
@@ -47,18 +46,18 @@
         "name": "Bean Vantage",
         "image": "/coffee_logo.png",
         "description": "Bean Vantage is the perfect meeting place near you. Enjoy premium coffee, cozy ambiance, and a great spot for business meetings or casual hangouts.",
-          "address": {
-            "@type": "PostalAddress",
-            "streetAddress": "Plot No. 9, Sector 1, MVP Colony",
-            "addressLocality": "Visakhapatnam",
-            "postalCode": "530017",
-            "addressCountry": "India"
-          },
-          "geo": {
-            "@type": "GeoCoordinates",
-            "latitude": "17.72839488842437",
-            "longitude": "83.30634742272619"
-          }
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "Plot No. 9, Sector 1, MVP Colony",
+          "addressLocality": "Visakhapatnam",
+          "postalCode": "530017",
+          "addressCountry": "India"
+        },
+        "geo": {
+          "@type": "GeoCoordinates",
+          "latitude": "17.72839488842437",
+          "longitude": "83.30634742272619"
+        },
         "openingHoursSpecification": {
           "@type": "OpeningHoursSpecification",
           "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
@@ -67,19 +66,17 @@
         }
       }
     </script>
+
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
   </head>
   <body>
     <div id="root"></div>
     <h1>Bean Vantage</h1>
     <h2>Savor the Edge in Every Sip</h2>
 
-
-    <script 
-      src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" 
-      integrity="sha384-..."
-      crossorigin="anonymous"
-      defer
-    ></script>
+    <!-- React and ReactDOM scripts -->
+    <script src="https://unpkg.com/react@18/umd/react.development.js" crossorigin></script>
+    <script src="https://unpkg.com/react-dom@18/umd/react-dom.development.js" crossorigin></script>
 
     <script type="module" src="/src/main.jsx" defer></script>
   </body>

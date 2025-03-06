@@ -71,8 +71,8 @@ const Footer = () => {
             {/* Company Address */}
             <div className="py-8 col-span-2 sm:col-auto">
               <h1 className="text-lg font-semibold mb-3">Address</h1>
-              <p className="mb-2 text-sm">Angola, Luanda</p>
-              <p className="text-sm">+244 123456789</p>
+              <p className="mb-2 text-sm">Plot No. 9, MVP Colony</p>
+              <p className="text-sm">+91 999999999</p>
 
               {/* Social Media Links */}
               <div className="flex items-center gap-4 mt-4">
