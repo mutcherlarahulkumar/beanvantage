@@ -5,8 +5,8 @@ import FooterBg from "/src/assets/coffee-footer.jpg";
 const FooterLinks = [
   { title: "Home", link: "/#" },
   { title: "About", link: "/about" },
-  { title: "Contact", link: "/contact" },
-  { title: "Blog", link: "/#blog" },
+  { title: "Gallery", link: "/gallery" },
+  { title: "Blog", link: "/blog" },
 ];
 
 const bgImage = {
