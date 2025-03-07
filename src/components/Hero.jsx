@@ -7,12 +7,12 @@ export default function Hero() {
       <div className="container pb-8 sm:pb-0">
         <div className="grid grid-cols-1 sm:grid-cols-2 gap-8">
           <div className="flex flex-col justify-center gap-6 text-center sm:text-left order-2 sm:order-1 m-3">
-            <h1 className="text-5xl sm:text-6xl lg:text-7xl font-bold leading-tight">
+            <h2 className="text-5xl sm:text-6xl lg:text-7xl font-bold leading-tight">
               Brewing happiness,
               <span className="bg-clip-text text-transparent bg-gradient-to-b from-[#e09f3e] to-[#9c6644] font-cursive">
                 One Cup at a Time
               </span>
-            </h1>
+            </h2>
             <p className="text-lg text-[#e8d3b9]">
                 We serve the best coffee in town. Our coffee is made from freshly roasted beans
                 that are brewed to perfection. 
