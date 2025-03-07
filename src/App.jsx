@@ -32,7 +32,7 @@ const App = () => {
           content="Restobar, Meeting place, Coffee shop near me, Best coffee near me, Specialty coffee, Organic coffee, Cold brew, Espresso bar, Cozy café, Vegan coffee, Latte art, café in Visakhapatnam" />
           <link rel="canonical" href="https://beanvantage.vercel.app/" />
 
-        <meta property="og:title" content="Bean Vantage - Best Coffee Near You" />
+        <meta property="og:title" content="Bean Vantage - Enjoy the Best Coffee & Meetings Near You" />
         <meta
           property="og:description"
           content="Visit Our Coffee Shop for the best freshly brewed coffee, artisanal espresso, and cozy meeting place."
@@ -43,7 +43,7 @@ const App = () => {
         <meta property="og:site_name" content="Bean Vantage" />
 
         <meta name="twitter:card" content="summary_large_image" />
-        <meta name="twitter:title" content="Bean Vantage - Best Coffee Near You" />
+        <meta name="twitter:title" content="Bean Vantage - Enjoy the Best Coffee & Meetings Near You" />
         <meta
           name="twitter:description"
           content="Visit Our Coffee Shop for the best freshly brewed coffee, artisanal espresso, and cozy meeting place."

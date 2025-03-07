@@ -8,14 +8,14 @@ const Home = () => {
   return (
     <div>
       <Helmet>
-        <title>Bean Vantage - Best Coffee Near You</title>
-        <meta
+      <title>Bean Vantage - Enjoy the Best Coffee & Meetings Near You</title>
+      <meta
           name="description"
-          content="Visit Bean Vantage for the best freshly brewed coffee, artisanal espresso, and a cozy meeting place. Explore our specialty coffee, vegan options, and gluten-free menu."
+          content="Visit Bean Vantage, the best restobar and meeting place near you in Visakhapatnam! Enjoy freshly brewed coffee, artisanal espresso, and a cozy ambiance."
         />
         <meta
           name="keywords"
-          content="Restobar, Meeting place, Meeting place near me, Best coffee near me, Best coffee shop in visakhapatnam, Coffee near visakapatnam, Café in visakhapatnam, Best cafe in visakhapatnam"
+          content="Restobar, Meeting place, Coffee shop near me, Best coffee near me, Specialty coffee, Organic coffee, Cold brew, Espresso bar, Cozy café, Vegan coffee, Latte art, café in Visakhapatnam"
         />
         <link rel="canonical" href="https://beanvantage.vercel.app/" />
 

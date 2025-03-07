@@ -66,9 +66,9 @@ const Services = () => {
       <div className="container mx-auto px-6">
         {/* Heading */}
         <div className="text-center mb-12">
-          <h1 className="text-4xl sm:text-5xl font-bold font-cursive text-[#e09f3e]">
+          <h2 className="text-4xl sm:text-5xl font-bold font-cursive text-[#e09f3e]">
             Best Coffee For You
-          </h1>
+          </h2>
         </div>
 
         {/* Services Cards */}
