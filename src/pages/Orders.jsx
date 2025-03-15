@@ -48,10 +48,10 @@ const Cart = () => {
                 {orders.length === 0 ? (
                     <div>
                         <p className="text-xl text-[#e8d3b97f]">Your cart is empty. Time to brew something delicious!</p>
-                       <div className="pb-10">Login to view Your Cart</div> <div onClick={()=>{
+                       <div className="pb-10">Login to view Your Cart</div> <div >
+                            <span className="cursor-pointer p-2 border m-9" onClick={()=>{
                                 navigate('/login');
-                            }}>
-                            <span className="cursor-pointer p-2 border m-9">Login</span>
+                            }}>Login</span>
                         </div>
                     </div>
                     
