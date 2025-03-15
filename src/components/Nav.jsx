@@ -4,7 +4,7 @@ import Logo from "../assets/coffee_logo.png";
 import { FaCoffee, FaBars, FaTimes } from "react-icons/fa";
 
 const Menu = [
-  { id: 1, name: "Home", link: "/#" },
+  { id: 1, name: "Home", link: "/" }, // Changed from "/#" to "/"
   { id: 2, name: "Menu", link: "#" },
   { id: 3, name: "Products", link: "/products" },
   { id: 4, name: "Location", link: "/location" },
@@ -19,46 +19,50 @@ const DropdownMenu = [
   { id: 5, name: "Reviews", link: "/reviews" },
 ];
 
+const mobileMenu = [
+  { id: 1, name: "Home", link: "/" },
+  { id: 3, name: "Products", link: "/products" },
+  { id: 4, name: "Location", link: "/location" },
+  { id: 5, name: "About", link: "/about" },
+  { id: 6, name: "Blog", link: "/blog" },
+  { id: 7, name: "Events", link: "/events" },
+  { id: 8, name: "Gifts", link: "/gifts" },
+  { id: 9, name: "Gallery", link: "/gallery" },
+  { id: 10, name: "Reviews", link: "/reviews" },
+]
+
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
   const [dropdownOpen, setDropdownOpen] = useState(false);
   const menuRef = useRef(null);
   const dropdownRef = useRef(null);
 
-  // Close mobile menu when clicking outside
+  // Close menus when clicking outside
   useEffect(() => {
     const handleClickOutside = (event) => {
       if (menuRef.current && !menuRef.current.contains(event.target)) {
         setIsOpen(false);
       }
-    };
-    document.addEventListener("mousedown", handleClickOutside);
-    return () => document.removeEventListener("mousedown", handleClickOutside);
-  }, []);
-
-  // Close dropdown when clicking outside
-  useEffect(() => {
-    const handleClickOutsideDropdown = (event) => {
       if (dropdownRef.current && !dropdownRef.current.contains(event.target)) {
         setDropdownOpen(false);
       }
     };
-    document.addEventListener("mousedown", handleClickOutsideDropdown);
-    return () =>
-      document.removeEventListener("mousedown", handleClickOutsideDropdown);
+    
+    document.addEventListener("mousedown", handleClickOutside);
+    return () => document.removeEventListener("mousedown", handleClickOutside);
   }, []);
 
   return (
     <nav className="bg-gray-900 shadow-md text-white relative">
       <div className="container py-3 flex justify-between items-center">
-        {/* Logo Section */}
-        <a
-          href="/"
+        {/* Logo Section - Changed from <a> to <Link> */}
+        <Link
+          to="/"
           className="font-bold text-2xl sm:text-3xl flex items-center gap-2 tracking-wider font-cursive"
         >
           <img src={Logo} alt="Coffee Café Logo" className="w-14 h-auto" />
           Bean Vantage
-        </a>
+        </Link>
 
         {/* Desktop Menu */}
         <ul className="hidden sm:flex items-center gap-6 z-50">
@@ -99,7 +103,7 @@ const Navbar = () => {
             )
           )}
         </ul>
-   
+
         <div className="hidden sm:flex">
           <Link to="/orders">
             <button className="bg-primary hover:bg-primary/80 transition duration-200 text-white px-4 py-2 rounded-full flex items-center gap-2">
@@ -125,7 +129,7 @@ const Navbar = () => {
           className="sm:hidden bg-gray-800 text-center absolute top-16 left-0 w-full z-50 shadow-lg"
         >
           <ul className="flex flex-col items-center gap-4 py-4">
-            {Menu.map((menu) =>
+            {mobileMenu.map((menu) =>
               menu.name === "Menu" ? (
                 <li key={menu.id} className="relative">
                   <button
@@ -134,24 +138,6 @@ const Navbar = () => {
                   >
                     {menu.name}
                   </button>
-                  {dropdownOpen && (
-                    <ul className="bg-gray-700 rounded-md mt-2">
-                      {DropdownMenu.map((item) => (
-                        <li key={item.id}>
-                          <Link
-                            to={item.link}
-                            className="block px-4 py-2 text-gray-300 hover:bg-gray-600 hover:text-white transition duration-200"
-                            onClick={() => {
-                              setDropdownOpen(false);
-                              setIsOpen(false);
-                            }}
-                          >
-                            {item.name}
-                          </Link>
-                        </li>
-                      ))}
-                    </ul>
-                  )}
                 </li>
               ) : (
                 <li key={menu.id}>
@@ -167,15 +153,12 @@ const Navbar = () => {
             )}
           </ul>
 
-
-
           <Link to="/orders">
-  <button className="bg-primary hover:bg-primary/80 transition duration-200 text-white px-4 py-2 rounded-full flex items-center gap-2 mx-auto mb-4">
-    Order now
-    <FaCoffee className="text-lg text-white drop-shadow-sm cursor-pointer" />
-  </button>
-</Link>
-
+            <button className="bg-primary hover:bg-primary/80 transition duration-200 text-white px-4 py-2 rounded-full flex items-center gap-2 mx-auto mb-4">
+              Order now
+              <FaCoffee className="text-lg text-white drop-shadow-sm cursor-pointer" />
+            </button>
+          </Link>
         </div>
       )}
     </nav>

@@ -2,7 +2,6 @@ import React, { useEffect, useState } from "react";
 import axios from "axios";
 import { useNavigate } from "react-router-dom";
 import CoffeeCup from "../assets/coffee2.png";  
-import { div } from "framer-motion/client";
 
 const Cart = () => {
     const [orders, setOrders] = useState([]);
@@ -47,11 +46,13 @@ const Cart = () => {
                 </h2>
 
                 {orders.length === 0 ? (
-                    <div className="">
+                    <div>
                         <p className="text-xl text-[#e8d3b97f]">Your cart is empty. Time to brew something delicious!</p>
-                       <span>Login to view Your Cart</span> <button className="cursor-pointer p-2 border m-5 my-7" onClick={()=>{
-                            navigate('/login');
-                        }}>Login</button>
+                       <div className="pb-10">Login to view Your Cart</div> <div onClick={()=>{
+                                navigate('/login');
+                            }}>
+                            <span className="cursor-pointer p-2 border m-9">Login</span>
+                        </div>
                     </div>
                     
                 ) : (
