@@ -50,9 +50,9 @@ const Cart = () => {
                         <p className="text-xl text-[#e8d3b97f]">Your cart is empty. Time to brew something delicious!</p>
                        <div className="pb-10">Login to view Your Cart</div>
                         <div >
-                            <span className="cursor-pointer p-2 m-9 text-blue-300 border" onClick={()=>{
+                            <div className="cursor-pointer p-2 m-9 text-blue-300 border" onClick={()=>{
                                 navigate('/login');
-                            }}>Login</span>
+                            }}>Login</div>
                         </div>
                     </div>
                     
